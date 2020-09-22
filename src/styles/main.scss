@@ -39,3 +39,57 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0.5rem;
+  background-color: #2258d4;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .shoppingcart {
+    display: flex;
+    align-items: center;
+    img {
+      width: 3rem;
+      height: 3rem;
+    }
+    button {
+      width: 1.5rem;
+      color: white;
+      background-color: red;
+      border: 0;
+      border-radius: 20%;
+    }
+  }
+}
+
+.content {
+  padding: 1rem;
+  img {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 0.2rem;
+  }
+  .shelf-content {
+    display: flex;
+    margin-bottom: 1rem;
+
+    .commodity {
+      padding-right: 2rem;
+      .commodity-bottom {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .add {
+        background-color: #2258d4;
+        border: none;
+        box-shadow: 0 1px 1px 0;
+      }
+    }
+  }
+}
